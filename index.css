@@ -4,5 +4,30 @@
 }
 
 body {
-  
+  background-color: #303030;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+  margin-top: 1rem;
+}
+
+.pictures img {
+  width: 600px;
+  height: 400px;
 }
